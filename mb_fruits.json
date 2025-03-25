@@ -1,6 +1,6 @@
 
 {
-    "bundle_1": { 
+    "fruits": { 
         "language_model" : "https://alphacephei.com/vosk/models/vosk-model-large-en-us-0.15.zip",
         "vocabulary" : ["muñeco de nieve", "abajo", "manzana", "ariba", "pera", "derecha", "naranja"],
         "words": {
