@@ -1,0 +1,35 @@
+
+{
+    "bundle_1": { 
+        "language_model" : "https://alphacephei.com/vosk/models/vosk-model-large-en-us-0.15.zip",
+        "vocabulary" : ["muñeco de nieve", "abajo", "manzana", "ariba", "pera", "derecha", "naranja"],
+        "words": {
+            "muñeco de nieve": {
+                "prompts": [
+                    "snowman in Spanish?",
+                    "man made of snow",
+                    {"lang_tag" : "en-US", "spoken" : "asxaxasxas asxasxas"},
+                    "https://aasas.jpg",
+                    "c:/aasas.jpg",
+                    ],
+                "aliases": [
+                    "muñeco nieve",
+                ]
+            },
+            "manzana": {
+                "prompts": [
+                    "apple in Spanish?"
+                    ],
+            },                
+            "pera": { 
+                "prompts": "pear in Spanish?",
+                "false_alikes" : [
+                  "pier", "peer"
+                ]
+            },                
+            "naranja": { 
+                "prompts": "An orange in Spanish?",
+            },                 
+        },
+    }
+}
